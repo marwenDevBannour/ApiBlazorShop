@@ -64,8 +64,8 @@ namespace ApiBlazorShop.Controllers
 
         }
 
-            [HttpPut("{id}")]
-            public async Task<IActionResult> UpdateProduct(Product product,int id)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(Product product,int id)
             {
                 try
                 {
